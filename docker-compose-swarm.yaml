@@ -1,6 +1,6 @@
 services:
     web:
-        image: seemoreai\bgapp-web
+        image: seemoreai/bgapp-web
         deploy:
             replicas: 5
         ports:
